@@ -22,7 +22,7 @@ go get github.com/machinebox/appify
 appify -name "My Go Application" -icon ./icon.png /path/to/bin
 ```
 
-It will create a macOS Application.
+This will create a regular macOS Application, the `-menubar` flag can be set to create a menu bar only app. 
 
 ## What next?
 
